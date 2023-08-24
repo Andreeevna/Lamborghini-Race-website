@@ -26,6 +26,18 @@ a {
 	text-decoration: none;
 }
 
+.big-container {
+	padding: 0 10px;
+	margin: 0 auto;
+	max-width: 1220px;
+}
+
+.container {
+	padding: 0 10px;
+	margin: 0 auto;
+	max-width: 920px;
+}
+
 .header {
 	padding-top: 25px;
 	position: absolute;
@@ -35,12 +47,6 @@ a {
 		--gradient-light,
 		linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%)
 	);
-}
-
-.container {
-	padding: 0 10px;
-	margin: 0 auto;
-	max-width: 1220px;
 }
 
 .nav {
