@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Impact', sans-serif;
+	src: url(../fonts/impact.woff2);
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -23,6 +28,13 @@ a {
 
 .header {
 	padding-top: 25px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: var(
+		--gradient-light,
+		linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%)
+	);
 }
 
 .container {
@@ -43,6 +55,11 @@ a {
 }
 
 .menu-left {
+	padding-left: 25px;
+}
+
+.menu-right {
+	padding-right: 80px;
 }
 
 .menu-item {
@@ -56,5 +73,65 @@ a {
 .logo {
 }
 
-.menu-right {
+/*MAIN*/
+
+.main {
+}
+
+.promo {
+	background-image: url(../images/Promo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.promo__inner {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	text-align: center;
+	font-family: Impact;
+}
+
+.title {
+	margin-bottom: 10px;
+	font-size: 76px;
+	font-style: normal;
+	font-weight: 400;
+	color: #040404;
+	letter-spacing: 1.52px;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	margin-bottom: 10px;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	border-bottom: 1px solid #040404;
+	align-self: center;
+}
+
+.subtitle span {
+	padding: 10px 0;
+	display: block;
+	color: #9f6b08;
+	font-size: 34px;
+	line-height: 33.984px;
+}
+
+.promo__text {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	color: #363636;
+	font-family: 'Roboto Condensed';
+}
+
+.promo__arrow {
+	margin-top: auto;
+	margin-bottom: 30px;
+	align-self: center;
 }
