@@ -260,3 +260,152 @@ a {
 	margin: auto auto 90px auto;
 	align-self: center;
 }
+
+.evo {
+	margin-bottom: 100px;
+	font-size: 14px;
+}
+
+.evo-black {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-color: #363636;
+	color: #fff;
+}
+
+.evo-black__inner {
+	position: relative;
+}
+
+.evo-black__inner::before {
+	position: absolute;
+	content: ' ';
+	background-image: url(../images/dec-1.svg);
+	background-repeat: no-repeat;
+	width: 185px;
+	height: 213px;
+	top: 210px;
+	left: -130px;
+}
+
+.evo-black__inner::after {
+	position: absolute;
+	content: ' ';
+	background-image: url(../images/dec-2.svg);
+	background-repeat: no-repeat;
+	width: 498px;
+	height: 572px;
+	top: 290px;
+	left: -40px;
+}
+
+.evo-black__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.evo-black__title {
+	padding-right: 50px;
+	font-size: 32px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.evo-black__infobox {
+	flex-basis: 437px;
+}
+
+.evo-black__text {
+	margin-bottom: 30px;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.evo-black__img {
+	margin: 170px auto 60px;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.evo__descr-list {
+	display: flex;
+	justify-content: center;
+	gap: 0 65px;
+}
+
+.evo__descr-list dd {
+	text-transform: uppercase;
+}
+
+.evo-light {
+}
+
+.evo-light__inner {
+	padding-top: 125px;
+	position: relative;
+}
+
+.evo-light__inner ::before {
+	position: absolute;
+	content: ' ';
+	background-image: url(../images/dec-3.png);
+	background-repeat: no-repeat;
+	width: 274px;
+	height: 257px;
+	top: -40px;
+	left: 360px;
+}
+
+.evo-light__inner ::after {
+	position: absolute;
+	content: ' ';
+	background-image: url(../images/dec-4.png);
+	background-repeat: no-repeat;
+	width: 324px;
+	height: 311px;
+	top: 115px;
+	left: 600px;
+}
+
+.evo-light__text {
+	margin-bottom: 30px;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.evo-light__text:first-child {
+	max-width: 285px;
+}
+
+.evo-light__text:nth-child(2) {
+	max-width: 437px;
+}
+
+.evo-light__text:nth-child(3) {
+	max-width: 590px;
+}
+
+.evo-light__video {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-image: url(../images/Polygon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 264px;
+}
+
+.evo-light__video-link {
+}
+
+.evo-light__video-link span {
+	display: block;
+	color: #fff;
+	font-weight: 400;
+	line-height: 120%;
+}
