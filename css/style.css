@@ -479,3 +479,46 @@ a {
 .swiper-button-right {
 	transform: translateX(8px);
 }
+
+/*Quote*/
+
+.blog_quote {
+	display: flex;
+	justify-content: space-between;
+	gap: 0 20px;
+}
+
+.blog_quote-box {
+	flex-basis: 434px;
+}
+
+.blockquote {
+	margin-bottom: 30px;
+}
+
+.blockquote-name {
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.blockquote-name span {
+	margin-bottom: 3px;
+	display: block;
+	color: #9f6b08;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.blockquote__text {
+	font-style: italic;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.blog_quote-img {
+}
+
+/*Footer*/
