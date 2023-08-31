@@ -6,7 +6,7 @@ const swiper = new Swiper('.swiper', {
 
 	// Navigation arrows
 	navigation: {
-		nextEl: '.swiper-button-left',
-		prevEl: '.swiper-button-right',
+		nextEl: '.swiper-button-right',
+		prevEl: ' .swiper-button-left',
 	},
 })
