@@ -9,4 +9,19 @@ const swiper = new Swiper('.swiper', {
 		nextEl: '.swiper-button-right',
 		prevEl: ' .swiper-button-left',
 	},
+	breakpoints: {
+		0: {
+			slidesPerView: 1,
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 20,
+		},
+	},
+})
+
+const menuBtn = document.querySelector('.menu-btn')
+const menuMob = document.querySelector('.menu-mobile')
+menuBtn.addEventListener('click', () => {
+	menuMob.classList.toggle('menu--open')
 })
